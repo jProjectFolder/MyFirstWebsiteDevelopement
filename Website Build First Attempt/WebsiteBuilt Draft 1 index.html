@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>My Website</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+<h1>My First Wesbite</h1>
+<hr>
+<p>This page is the "index" or homepage of website.
+https://www.youtube.com/channel/UC-8eXUrhB7dLJ5GQdIo_bhQ
+The whole website cannot be made in html, so we will use Cascading Style Sheet (CSS) files.</p>
+
+<p>In a new .CSS file named "style," put in
+body {
+background: #d1a10e
+}
+where background is the keyword, and the 3 BYTE (6 hex value) color code is
+inputted. Colors can be found at this website: https://www.color-hex.com/</p>
+
+<p>< link href="style.css" type="text/css" rel="stylesheet"> is used to link 
+the style.css with this html file. The "href" means we reference the .css file
+that is in the same folder as the WebsiteBuiltDraft 1 index.html.</p>
+
+<p>Then we make a < div id="main> < /div> and go back to style.css and 
+body {
+background: #d1a10e
+}
+#main {
+width: 1000px; 
+height: 600px;
+}
+and because this is inside the "body {}" we add 
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+}
+which gives text centered in the main of the body</p>
+
+<p>Now we will center the box main box instelf on the webpage by chaning its margin
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+margin: 25px auto;
+}</p>
+
+<p>Now we will make a border for the main box.
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+border: dashed 4px #ff3819;
+}</p>
+
+<p>Now we will create a header. add < h1>My First Wesbite< /h1> below div id="main"
+Then change the default header in the style.css file
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+border: dashed 4px #ff3819;
+}
+h1 {
+text-align: center;
+font-family:"Times New Roman";
+font: 25pt;
+color: #8fce00;
+}<p/>
+
+<p>Now I will add a horizontal rule (divider line)
+< hr> belor the < h1><p/>
+
+<p>Now we will add paragraph tag with styles. So add < p> < /p> between paragraph lines
+and adding this to style.css
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+border: dashed 4px #ff3819;
+}
+h1 {
+text-align: center;
+font-family:"Times New Roman";
+font: 25pt;
+color: #8fce00;
+}
+hr {
+height: 2px;
+color: #0092ff;
+}
+p {
+font-family:"Calibri";
+font-size: 12pt;
+text-align: left;
+text-indent: 48px;
+color: #2f2d2d
+}</p>
+
+<p>Finally we will add padding so the text does not go to the very edge of the main box.
+So we will add to the style.css file
+body {
+background: #d1a10e;
+text-align: center;
+}
+#main {
+width: 1000px; 
+height: 600px;
+background: #6e9f9f;
+border: dashed 4px #ff3819;
+padding: 10px;
+}
+h1 {
+text-align: center;
+font-family:"Times New Roman";
+font: 25pt;
+color: #8fce00;
+}
+hr {
+height: 2px;
+color: #0092ff;
+}
+p {
+font-family:"Calibri";
+font-size: 12pt;
+text-align: left;
+text-indent: 48px;
+color: #2f2d2d
+}
+</p>
+
+</div>
+</body>
+</html>
